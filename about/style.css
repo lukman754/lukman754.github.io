@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  background: red;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card{
+  width: 500px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-header{
+  background: #fff;
+  padding: 60px 40px;
+}
+
+.name{
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.desc{
+  font-size: 18px;
+  color: red;
+}
+
+.sm{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sm a{
+  color: #f2f2f2;
+  width: 56px;
+  font-size: 22px;
+  transition: .3s linear;
+}
+
+.sm a:hover{
+  color: #e66767;
+
+
+}
+.btn{
+  display: inline-block;
+  padding: 12px 50px;
+  color: #fff;
+  background: #2e2e2e;
+  border-radius: 2px;
+  margin-top: 16px;
+  transition: 0.2s linear;
+}
+
+.btn:hover{
+  background: #fff;
+  color: #2e2e2e;
+
